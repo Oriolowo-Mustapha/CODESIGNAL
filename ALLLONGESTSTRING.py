@@ -1,4 +1,4 @@
-names = ["aba", "aa", "ad", "vcd", "aba"]
-for i in 
-
-
+def allLongestStrings(inputArray):
+    n = len(max(inputArray, key= len))
+    return [s for s in inputArray if len(s) == n]
+   
